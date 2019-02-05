@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  cql_evaluate:
+    image: jbjares/cql_execution_service:v2
+    ports:
+      - 8082:8080
